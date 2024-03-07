@@ -11,8 +11,8 @@
   --background-color: #ffffff;
   --accent_color: #000000;
 
-  --Inter_font: "Inter-Variable";
-  --Press_font: "Press Start 2P-Regular";
+  --Inter_font: "Inter-Variable", Arial, Helvetica, sans-serif;
+  --Press_font: "Press Start 2P-Regular", fantasy;
 
   --background_image: repeating-linear-gradient(
       to right,
