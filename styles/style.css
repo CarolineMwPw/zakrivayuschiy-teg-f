@@ -211,6 +211,34 @@
   aspect-ratio: 1/1;
 }
 
+.one {
+  filter: brightness(120%) contrast(110%) hue-rotate(180deg);
+}
+
+.three {
+  filter: invert(0.2);
+}
+
+.four {
+  filter: hue-rotate(-30deg);
+}
+
+.five {
+  filter: saturate(130%);
+}
+
+.six {
+  filter: contrast(120%);
+}
+
+.seven {
+  filter: opacity(0.5);
+}
+
+.lion {
+  filter: sepia(10%);
+}
+
 .card__icon-button {
   border: 2px solid transparent;
   background-color: transparent;
