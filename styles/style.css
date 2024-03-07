@@ -72,6 +72,7 @@
 
 .theme-menu__button:disabled {
   opacity: 0.6;
+  pointer-events: none;
 }
 
 .theme-menu__button:hover,
@@ -87,10 +88,6 @@
   to {
     opacity: 0.6;
   }
-}
-
-.theme-menu__button:disabled {
-  pointer-events: none;
 }
 
 .theme-menu__button:focus-visible::after {
